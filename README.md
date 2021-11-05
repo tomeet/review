@@ -11,7 +11,7 @@ $ composer require overtrue/laravel-vote -vvv
 This step is optional
 
 ```bash
-$ php artisan vendor:publish --provider="Tomeet\\Review\\ReviewServiceProvider" --tag=config
+$ php artisan vendor:publish --provider="Tomeet\\Reviews\\ReviewServiceProvider" --tag=config
 ```
 
 ### Migrations
@@ -19,7 +19,7 @@ $ php artisan vendor:publish --provider="Tomeet\\Review\\ReviewServiceProvider" 
 This step is required, you can publish the migration files:
 
 ```bash
-$ php artisan vendor:publish --provider="Tomeet\\Review\\ReviewServiceProvider" --tag=migrations
+$ php artisan vendor:publish --provider="Tomeet\\Reviews\\ReviewServiceProvider" --tag=migrations
 ```
 
 then create tables: 
