@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Daoer\Review\Facades;
+namespace Tomeet\Reviews\Facades;
 
 
 use Illuminate\Support\Facades\Facade;

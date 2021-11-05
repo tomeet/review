@@ -32,7 +32,6 @@ class CreateReviewTable extends Migration
      */
     public function down()
     {
-        $tableName = config('review.reviews_table_name');
-        Schema::dropIfExists($tableName);
+        Schema::dropIfExists('reviews');
     }
 }

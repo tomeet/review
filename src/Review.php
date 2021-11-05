@@ -1,6 +1,6 @@
 <?php
 
-namespace Tomeet\Review;
+namespace Tomeet\Reviews;
 
 use Illuminate\Database\Eloquent\Model;
 

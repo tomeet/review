@@ -2,6 +2,6 @@
 
 return [
     'models' => [
-        'review' => Tomeet\Review\Review::class
+        'review' => Tomeet\Reviews\Review::class
     ],
 ];

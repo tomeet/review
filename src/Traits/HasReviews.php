@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tomeet\Review\Traits;
+namespace Tomeet\Reviews\Traits;
 
 
 use Carbon\Carbon;
