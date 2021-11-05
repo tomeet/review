@@ -29,10 +29,7 @@ class ReviewServiceProvider extends ServiceProvider
     {
         $this->publishes([
             \dirname(__DIR__) . '/config/reviews.php' => config_path('tomeet/reviews.php'),
-        ], 'tomeet-review-config');
-
-        $this->publishes([
             \dirname(__DIR__) . '/migrations/' => database_path('migrations'),
-        ], 'tomeet-review-migration');
+        ], 'tomeet-reviews');
     }
 }
