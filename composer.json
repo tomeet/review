@@ -1,0 +1,15 @@
+{
+    "name": "tomeet/review",
+    "autoload": {
+        "psr-4": {
+            "Daoer\\Review\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tomeet",
+            "email": "tomeet@sohu.com"
+        }
+    ],
+    "require": {}
+}
