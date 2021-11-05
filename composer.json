@@ -1,15 +1,16 @@
 {
-    "name": "tomeet/reviews",
-    "autoload": {
-        "psr-4": {
-            "Tomeet\\Reviews\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "tomeet",
-            "email": "tomeet@sohu.com"
-        }
-    ],
-    "require": {}
+  "name": "tomeet/reviews",
+  "description": "tomeet reviews",
+  "autoload": {
+    "psr-4": {
+      "Tomeet\\Reviews\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tomeet",
+      "email": "tomeet@sohu.com"
+    }
+  ],
+  "require": {}
 }
