@@ -12,5 +12,14 @@
       "email": "tomeet@sohu.com"
     }
   ],
-  "require": {}
+  "require": {
+    "jiannei/laravel-response": "^4.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tomeet\\Reviews\\ReviewServiceProvider"
+      ]
+    }
+  }
 }
