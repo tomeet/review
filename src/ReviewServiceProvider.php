@@ -34,7 +34,7 @@ class ReviewServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            \dirname(__DIR__) . '/config/review.php' => config_path('review.php'),
+            \dirname(__DIR__) . '/config/review.php' => config_path('tomeet/review.php'),
             \dirname(__DIR__) . '/migrations/' => database_path('migrations'),
         ], 'tomeet-review');
     }
