@@ -15,8 +15,8 @@ class ReviewServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            \dirname(__DIR__) . '/config/review.php',
-            'review'
+            \dirname(__DIR__) . '/config/reviews.php',
+            'reviews'
         );
     }
 
@@ -28,7 +28,7 @@ class ReviewServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            \dirname(__DIR__) . '/config/review.php' => config_path('tomeet/review.php'),
+            \dirname(__DIR__) . '/config/reviews.php' => config_path('tomeet/reviews.php'),
         ], 'tomeet-review-config');
 
         $this->publishes([
