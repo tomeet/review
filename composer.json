@@ -1,8 +1,8 @@
 {
-    "name": "tomeet/review",
+    "name": "tomeet/reviews",
     "autoload": {
         "psr-4": {
-            "Daoer\\Review\\": "src/"
+            "Tomeet\\Reviews\\": "src/"
         }
     },
     "authors": [
