@@ -3,7 +3,7 @@
 ## Installing
 
 ```shell
-$ composer require overtrue/laravel-vote -vvv
+$ composer require tomeet/reviews
 ```
 
 ### Configuration
